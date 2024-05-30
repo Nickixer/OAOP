@@ -2,7 +2,7 @@ using HorizonSideRobots
 
 r=Robot(15,15; animate=true)
 
-#ЭТО ЛЕСЕНКУ СТРОИТЬ ИСКОСОКОВУЮ
+#ЭТО КОСОЙ КРЕСТ
 
 function build_lesenka(r::Robot)
     while isborder(r,HorizonSide(3))==false
