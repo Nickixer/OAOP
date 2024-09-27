@@ -10,3 +10,4 @@ function perimetr_markers(r::Robot)
     end
 end
 perimetr_markers(r)
+end
